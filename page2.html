@@ -1,0 +1,116 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday, Sayangku</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom right, #ffe4ec, #e0bbf7);
+      color: #333;
+      text-align: center;
+    }
+    header {
+      padding: 50px 20px 20px;
+      font-family: 'Dancing Script', cursive;
+      font-size: 3em;
+      color: #ff69b4;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    .message {
+      font-size: 1.2em;
+      padding: 30px 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0.6);
+      border-radius: 20px;
+    }
+    audio {
+      margin: 20px auto;
+      display: block;
+    }
+    .hearts {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 1;
+    }
+    .hearts span {
+      position: absolute;
+      color: pink;
+      font-size: 2em;
+      animation: float 6s infinite;
+      opacity: 0.8;
+    }
+    @keyframes float {
+      0% {
+        transform: translateY(100vh) scale(1);
+      }
+      100% {
+        transform: translateY(-10vh) scale(1.5);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>Happy Birthday, Sayangku 💖</header>
+    </div>  <audio controls autoplay loop>
+    <source src="Ed Sheeran - Perfect.mp3" type="audio/mp3">
+    Maaf, browser kamu tidak mendukung pemutar audio.
+    </audio>
+  <div class="gallery">
+    <img src="WhatsApp Image 2025-07-27 at 4.18.29 PM (1).jpeg" alt="Foto 1">
+    <img src="WhatsApp Image 2025-07-27 at 4.18.29 PM.jpeg" alt="Foto 2">
+    <img src="WhatsApp Image 2025-07-27 at 4.18.30 PM.jpeg" alt="Foto 3">
+ 
+
+  </audio>  <div class="message">
+    <p>sweet 17th sayanggku cintakuu manissku duniakuu! 💕<br>
+    selamat ulang tahun untuk yang ke 17 semoga apa yang kamu doakan dan kamu harapkan dapat segera tercapaii,
+    doaku untukmu semoga kamu panjang umurr sehatt selaluu tambahh cantikk tambahh maniss tambahh lucuukkk makin tinggii.
+    di umur yang ke 17 ini semoga kamu diberikan jalan dan kemudahan untuk menempuh dan menata masa depan yang kamu harapkan
+    pokoknyaa semangatt teruss sayangg buat kedepannnyaa<br>
+    makasiii yaa sayangg udah menjadi bagian dari hidupku mewarnai hari hariku, aku sangat bersyukur punyaa kamuu😘
+    GBUU</p>
+     <p>
+      <br>btw aku juga buatin plylist lagu buat kamu dengerin pas lagi santai atau lagi nugass semoga kamu sukaa yaa
+      <br>playlistnya ada di <a href="https://open.spotify.com/playlist/4Qr3U2s1PGj6UHept0UymX?si=ecdf022f1fa844e9" target="_blank">sinii sayangg</a>
+    </p>
+
+  </div>  <div class="hearts">
+    <!-- Generate floating hearts -->
+    <script>
+      for (let i = 0; i < 50; i++) {
+        let heart = document.createElement("span");
+        heart.innerHTML = "❤️";
+        heart.style.left = Math.random() * 100 + "vw";
+        heart.style.animationDuration = (Math.random() * 5 + 3) + "s";
+        heart.style.fontSize = (Math.random() * 20 + 10) + "px";
+        document.querySelector(".hearts").appendChild(heart);
+      }
+    </script>
+  </div>
+</body>
+</html>
